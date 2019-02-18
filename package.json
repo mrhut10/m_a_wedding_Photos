@@ -1,0 +1,15 @@
+{
+  "name": "m_a_wedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash decrypt.bash",
+    "bundle": "bash encrypt.bash",
+    "test_bundle": "bash test_bundle.bash",
+    "test_build": "bash test_build.bash",
+    "test": "npm run test_bundle && npm run test_build"
+  },
+  "author": "",
+  "license": "ISC"
+}
