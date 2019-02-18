@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ -z "${FILES_PASS}"];
+if [[ -z "${FILES_PASS}" ]]
 then
   echo "You forgot to specify the password"
   exit 1
