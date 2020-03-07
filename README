@@ -1,0 +1,16 @@
+# Encrypted Static Site
+
+Did some Wedding Photography for a friend, wanted a quick way to host though netlify so...
+
+so providing FILES_PASS environment variable is provided then...
+
+then the
+  - encrypt.bash script will encrypt the local static site - use after working on the site.
+  - decrypt.bash script will decrypt the static site, either to work on after cloning, or to publish the site via tools like netlify
+
+
+Although I wont provide the password to the static site in this case, feel free to fork and use for yourself.
+happy to accept PR's however do not push changes to the file: files.tar.gz.gpg
+
+Regards
+Alistair
